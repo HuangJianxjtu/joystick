@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <!-- 运行joy node  -->
+    <node name="joy_node" pkg="joy" type="joy_node"/>
+
+    <!-- 运行joystick node  -->
+    <node name="joystick_node" pkg="joystick" type="joystick"/>
+
+</launch>
