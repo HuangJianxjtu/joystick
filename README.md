@@ -18,22 +18,20 @@ environment: Ubuntu 16.04, ROS Kinetic
 `rosrun joystick joystick`
 
 ## How to use?
+注意遥控器的模式(mode)， 否则会导致错乱。
 
->* High speed, button control mode
+### 开关量控制
+>* 飞盘转动：长按'LB'， 再按'X'
+>* 飞盘停止：长按'LB'， 再按'B'
+>* 球框上升：长按'LB'， 再按'Y'
+>* 球框下降：长按'LB'， 再按'A'
+>* 球框停止：长按'LB'， 再按'RB'
 
-press 'Y' button and use orientation button to control robot
-
->* Low speed, button control mode
-
-press 'A' button and use orientation button to control robot
-
->* High speed, joystick(摇杆) control mode
-
-press 'X' button and use joystick to control robot
-
->* Low speed, joystick control mode
-
-press 'B' button and use joystick to control robot
+### 底盘运动控制
+>* 高速按键控制模式：长按'Y'，用方向按键来控制机器人
+>* 低速按键控制模式：长按'A'，用方向按键来控制机器人
+>* 高速摇杆控制模式：长按'X'，用左摇杆来控制机器人
+>* 低速摇杆控制模式：长按'B'，用左摇杆来控制机器人
 
 ## Tips
 
